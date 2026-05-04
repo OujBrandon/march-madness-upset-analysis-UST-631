@@ -32,5 +32,3 @@ For the exploratory data analysis, I:
 - Filtered for 12 vs 5 matchups
 - Counted how often different upset matchups occur
 - Created a visualization to compare them
-
-## Repository Structure
