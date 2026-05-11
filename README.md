@@ -31,7 +31,7 @@ For the exploratory data analysis, I:
 - Identified the important columns
 - Filtered for 12 vs 5 matchups
 - Counted how often different upset matchups occur
-- Created visualizations to compare them
+- Created visualizations
 
 ## Key Findings
 
@@ -43,8 +43,18 @@ One of the most interesting findings was that 11 vs 6 upsets actually occurred m
 
 I also used bootstrapping to estimate uncertainty for the proportion of 12 vs 5 upsets in the dataset. By repeatedly resampling the data with replacement, I created a bootstrap distribution and estimated a confidence interval.
 
-The bootstrap results showed that the estimated proportion of 12 vs 5 upsets usually stayed around 12% across the resampled datasets. Most of the values fell between about 8% and 17%, which gives a reasonable range for where the true proportion of these upsets may fall.
+The bootstrap results showed that the estimated proportion of 12 vs 5 upsets usually stayed around 12% across the resampled datasets. Most of the values fell between about 8% and 17% which gives a reasonable range for where the true proportion of these upsets may fall.
 
 ## Limitations
 
 One limitation of this project is that the dataset only includes upset games instead of all tournament games. Because of this, the analysis cannot estimate the actual probability of a 12-seed beating a 5-seed. Instead, the project focuses on how often certain upset matchups appear compared to others.
+
+## Sources
+
+- Kaggle March Madness Dataset:
+  https://www.kaggle.com/datasets/nishaanamin/march-madness-data
+
+- NCAA March Madness historical information:
+  https://www.ncaa.com/march-madness-live
+
+- Course materials and previous class exercises from SEIS 631 – Data Prep & Analysis
