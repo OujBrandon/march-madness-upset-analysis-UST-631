@@ -47,7 +47,7 @@ The bootstrap results showed that the estimated proportion of 12 vs 5 upsets usu
 
 ## Limitations
 
-One limitation of this project is that the dataset only includes upset games instead of all tournament games. Because of this, the analysis cannot estimate the actual probability of a 12-seed beating a 5-seed. Instead, the project focuses on how often certain upset matchups appear compared to others.
+One limitation of this project is that the dataset only includes upset games instead of all tournament games. Because of this, the analysis cannot estimate the actual probability of a 12-seed beating a 5-seed. Instead, the project focuses on how often certain upset matchups appear compared to others.  "Upset Seed Info.csv" was the dataset used on this project.
 
 ## Sources
 
